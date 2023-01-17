@@ -1,0 +1,87 @@
+body {
+    background-image: url(blackboard1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#titulo {
+    position: absolute;
+    width: 472px;
+    height: 70px;
+    left: 567px;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p {
+    position: absolute;
+    width: 503px;
+    height: 84px;
+    left: 550px;
+    top: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#n1 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 745px;
+    top: 165px;
+    background: #A4FFE0;
+    border-radius: 35px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#box1 {
+    position: absolute;
+    width: 503px;
+    height: 115px;
+    left:540px;
+    top: 250px;
+    background: #E0FFF4;
+    border-radius: 35px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#btn1 {
+    position: absolute;
+    width: 164px;
+    height: 55px;
+    left: 620px;
+    top: 410px;
+    background: #A4FFE0;
+    border-radius: 35px;
+}
+
+#btn2 {
+    position: absolute;
+    width: 164px;
+    height: 55px;
+    left: 820px;
+    top: 410px;
+    background: #A4FFE0;
+    border-radius: 35px;
+}
+
+#box2 {
+    position: absolute;
+    width: 503px;
+    height: 115px;
+    left: 540px;
+    top: 510px;
+    background: #E0FFF4;
+    border-radius: 35px;
+    border: 2px solid rgb(0, 0, 0);
+}
