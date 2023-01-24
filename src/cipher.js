@@ -22,5 +22,4 @@ function decode(key, text) {
   return message;
 }
 
-
 export default cipher; 

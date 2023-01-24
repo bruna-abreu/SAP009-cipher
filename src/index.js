@@ -7,7 +7,7 @@ document.getElementById("btn2").addEventListener("click",decrypt);
 
 function encrypt(event){
   event.preventDefault();
-  const offset = key.valueAsNumber;
+  const offset = Number(key.value);
   const msg = text.value.toUpperCase(); 
 
   try{
@@ -21,9 +21,8 @@ function encrypt(event){
 
 function decrypt(event) {
   event.preventDefault();
-  const offset = key.valueAsNumber;
+  const offset = Number(key.value);
   const msg = text.value.toUpperCase();
-  console.log(typeof offset)
 
   try{
     const decryptText = cipher.decode(offset, msg)
