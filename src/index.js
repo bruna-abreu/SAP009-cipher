@@ -5,18 +5,33 @@ const key = document.getElementById("keyNumber");
 document.getElementById("btn1").addEventListener("click",encrypt);
 document.getElementById("btn2").addEventListener("click",decrypt);
 
-function encrypt(){
+function encrypt(event){
+  event.preventDefault();
   const offset = key.valueAsNumber;
   const msg = text.value.toUpperCase(); 
-  const encryptText = cipher.encode(offset, msg)
-  document.getElementById("box2").value = encryptText; 
+
+  try{
+    const encryptText = cipher.encode(offset, msg)
+    document.getElementById("box2").value = encryptText; 
+  }
+  catch(error){
+    alert(error.message)
+  }
 }
 
-function decrypt() {
+function decrypt(event) {
+  event.preventDefault();
   const offset = key.valueAsNumber;
   const msg = text.value.toUpperCase();
-  const decryptText = cipher.decode(offset, msg)
-  document.getElementById("box2").value = decryptText;
+  console.log(typeof offset)
+
+  try{
+    const decryptText = cipher.decode(offset, msg)
+    document.getElementById("box2").value = decryptText;  
+  }
+  catch(error){
+    alert(error.message)
+  }
 }
 
 
