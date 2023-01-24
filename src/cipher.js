@@ -1,5 +1,17 @@
-const cipher = {
-  // ...
-};
+const cipher = {encode, decode};
+
+function encode(key, text) {
+  let message = "";
+  for (let i = 0; i < text.length; i++) {
+    const cipherText = (text.charCodeAt(i) +65 + key) %26 + 65;
+    message += String.fromCharCode(cipherText);
+  }
+  return message;
+}
+
+function decode(key, text) {
+  const message = encode(-key, text)
+  return message;
+}
 
 export default cipher;

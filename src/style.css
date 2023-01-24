@@ -24,7 +24,7 @@ p {
     color: #FFFEE5;
 }
 
-#n1 {
+#keyNumber {
     display: flex;
     flex-direction: column;
     margin: auto;
