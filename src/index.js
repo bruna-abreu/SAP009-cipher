@@ -15,7 +15,7 @@ function encrypt(event){
     document.getElementById("box2").value = encryptText; 
   }
   catch(error){
-    alert(error.message)
+    alert(error.message);
   }
 }
 
@@ -29,7 +29,7 @@ function decrypt(event) {
     document.getElementById("box2").value = decryptText;  
   }
   catch(error){
-    alert(error.message)
+    alert(error.message);
   }
 }
 

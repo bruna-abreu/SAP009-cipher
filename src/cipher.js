@@ -2,11 +2,11 @@ const cipher = {encode, decode};
 
 function encode(key, text) {
   if (typeof key !== "number" || key === 0) {
-    throw new TypeError("Insira o número de deslocamento");
+    throw new TypeError("Insira o número de deslocamento!");
   }
 
   if (typeof text !== "string" || text ==="") {
-    throw new TypeError("Mensagem inválida");
+    throw new TypeError("Mensagem inválida!");
   }
   
   let message = "";
