@@ -47,9 +47,9 @@ O nome *"It's cool"* foi uma brincadeira com sua pronúncia, pois ela se assemel
 
 ## 5. Considerações técnicas
 
-**Linguagens utilizadas:**JavaScript | HTML5 | CSS3
+**Linguagens utilizadas:** JavaScript | HTML5 | CSS3
 
-**Programas/Plataformas utilizadas:**VSCode (codificação) | Figma (protótipo) | Trello (planejamento) | Canva (imagem de fundo)
+**Programas/Plataformas utilizadas:** VSCode (codificação) | Figma (protótipo) | Trello (planejamento) | Canva (imagem de fundo)
 
 ## 6. Implementações futuras
 
@@ -217,4 +217,3 @@ O nome *"It's cool"* foi uma brincadeira com sua pronúncia, pois ela se assemel
 
 - [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
 
-## 8. Implementações futuras
